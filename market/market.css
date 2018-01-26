@@ -1,0 +1,56 @@
+
+.general {
+	text-align: left;
+}
+
+.itemCard {
+	width: 200px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.description {
+	min-height: 200px;
+	background-color: #eaeaea;
+	font-size: 18pt;
+}
+	
+	.description p {
+		margin-top: 15px;
+		font-size: 18px;
+	}
+	
+	.about {
+		text-align: left;
+		margin-left: 20px;
+	}
+
+		.about li {
+			list-style-type: none;
+			padding-left: 27px;
+		}
+
+		.about li:nth-child(1) {
+			background: url(../img/sprite/toSprite1.jpg) no-repeat;
+		}
+
+		.about li:nth-child(2) {
+			background: url(../img/sprite/toSprite2.jpg) no-repeat;
+		}
+
+		.about li:nth-child(3) {
+			background: url(../img/sprite/toSprite3.jpg) no-repeat;
+		}
+
+		.about li:nth-child(4) {
+			background: url(../img/sprite/toSprite4.jpg) no-repeat;
+		}
+
+		.about li:nth-child(5) {
+			background: url(../img/sprite/toSprite5.jpg) no-repeat;
+		}
+
+#stub {
+	text-align: center;
+	font-size: 24px;
+}
