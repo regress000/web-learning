@@ -1,6 +1,7 @@
 
 .general {
 	text-align: left;
+	padding-top: 2%;
 }
 
 .itemCard {
@@ -49,6 +50,29 @@
 		.about li:nth-child(5) {
 			background: url(../img/sprite/toSprite5.jpg) no-repeat;
 		}
+
+.price {
+	margin-left: 5%;
+	border: solid 1px black;
+	font-size: 1.1em;
+	border-collapse: collapse;
+}
+
+	.price td {
+		padding: 5px;
+		border: dotted 1px black;
+	}
+
+p {
+	padding: 10px;
+	font-size: 1.2em;
+}	
+
+	p span {
+		color: red;
+		font-size: 1.25em;
+		font-family: "Comic Sans MS";
+	}
 
 #stub {
 	text-align: center;

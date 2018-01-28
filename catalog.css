@@ -1,85 +1,104 @@
-.article li {
+
+.goodsGroup {
 	font-size: 18px;
 }
 
-.aloneControllers {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
+.goodsGroup:first-letter {
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+	color: red;
 }
 
-.netControllers {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
-}
-
-.readers {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
-}
-
-.locks {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
-}
-
-.ids {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
-}
-
-.readyKit {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
-}
-
-.installation {
-	margin-left: 25px;
-	margin-right: 25px;
-	background-color: #eaeaea;
-	border-radius: 0.5%;
-}
-
-	.catalogItem {
-
+	.aloneControllers {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
 	}
 
-	.itemLink {
-		text-decoration: none;
-		display: block;
+	.netControllers {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
 	}
 
-	.itemImage {
-		display: block;
-		margin-left: 150px;
-		width: 50px;
-		height: 50px;
-		border: solid 1px black;
-		border-radius: 10%;
-		transform: scale(1.0);
+	.readers {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
 	}
 
-	.itemImage:hover {
-		display: block;
-		margin-left: 150px;
-		max-width: 200px
-		height: auto;
-		border: solid 2px black;
-		border-radius: 10%;
-		transform: scale(2.5);
-		opacity: 0.99;
+	.locks {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
 	}
+
+	.ids {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
+	}
+
+	.readyKit {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
+	}
+
+	.installation {
+		margin-left: 25px;
+		margin-right: 50px;
+		background-color: #eaeaea;
+		border-radius: 0.5%;
+	}
+
+		.catalogItem {
+
+		}
+
+		.itemLink {
+			text-decoration: none;
+			display: block;
+			color: #404040;
+		}
+
+			.itemLink:hover {
+				text-decoration: none;
+				display: block;
+				color: #404040;
+			}
+
+				.itemLink:hover:first-letter {
+					font-family: "Comic Sans MS";
+					color: green;
+				}
+
+		.itemImage {
+			display: block;
+			margin-left: 150px;
+			width: 50px;
+			height: 50px;
+			border: solid 1px black;
+			border-radius: 10%;
+			transform: scale(1.0);
+		}
+
+		.itemImage:hover {
+			display: block;
+			margin-left: 150px;
+			max-width: 200px
+			height: auto;
+			border: solid 2px black;
+			border-radius: 10%;
+			transform: scale(2.5);
+			opacity: 0.99;
+		}
 
 
 	.itemDesc {

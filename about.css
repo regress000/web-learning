@@ -1,0 +1,35 @@
+
+.input {
+	min-height: 40px;
+}
+
+	.input .name {
+		text-transform: capitalize;
+		border: dotted 1px black;
+		margin-left: 2.15%;
+	}
+
+	.input .mail {
+		text-transform: lowercase;
+		border: dotted 1px black;
+		margin-left: 1.3%;
+	}
+
+	.input .title {
+		text-transform: capitalize;
+		border: dotted 1px black;
+		margin-left: 2%;
+	}
+
+	.input #feedback {
+		text-transform: capitalize;
+		border: dotted 1px black;
+		font-size: 1.05em;
+	}
+
+#send {
+	min-width: 100px;
+	min-height: 30px;
+	background-color: green;
+	font-weight: bold;
+}

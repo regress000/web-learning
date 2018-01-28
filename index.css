@@ -28,6 +28,9 @@ body {
 	.headerInfo {
 		min-height: 30px;
 		max-width: 100%;
+		background: url(img/logo-header.jpg) no-repeat;
+		text-decoration: none;
+		color: black;
 	}
 
 		.headerText {
@@ -98,6 +101,8 @@ body {
 	}
 
 	.article:first-letter {
+		font-size: 20px;
+		font-family: "Comic Sans MS";
 		color: red;
 	}
 

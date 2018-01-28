@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="about.css">
 	<title>Точка доступа</title>
 </head>
 <body>
@@ -27,11 +28,11 @@
 		<div class="article">
 			<h2>Напишите нам</h2>
 			<fieldset>
-				<span>Имя </span><input type="text" name="name" value="Имя"><br>
-				<span>e-mail </span><input type="e-mail" name="name" placeholder="example@example.com"><br>
-				<span>Тема </span><input type="text" name="name" value=""><br>
-				<textarea rows="6" cols="27"></textarea><br>
-				<input type="submit" name="" value="Отправить">
+				<div class="input"><span>Имя </span><input class="name" type="text" name="name" placeholder="Имя"></div>
+				<div class="input"><span>e-mail </span><input class="mail" type="e-mail" name="name" placeholder="example@example.com"></div>
+				<div class="input"><span>Тема </span><input class="title" type="text" name="name" value=""></div>
+				<div class="input"><textarea id="feedback" rows="6" cols="31" spellcheck="true"></textarea></div>
+				<input id="send" type="submit" name="" value="Отправить">
 			</fieldset>
 			<br><br>
 			<h2>Адрес</h2>
