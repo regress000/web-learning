@@ -28,6 +28,9 @@ body {
 	.headerInfo {
 		min-height: 30px;
 		max-width: 100%;
+		background: url(img/logo-header.jpg) no-repeat;
+		text-decoration: none;
+		color: black;
 	}
 
 		.headerText {
@@ -38,7 +41,7 @@ body {
 .menu {
 	max-width: 80%;
 	min-height: 40px;
-	text-align: left;
+	text-align: right;
 	padding: 0px;
 	border-bottom: solid 2px black;
 	background-color: #f8f8f8;
@@ -94,6 +97,13 @@ body {
 		min-height: 200px;
 		text-align: left;
 		margin-left: 30px;
+		font-size: 17px;
+	}
+
+	.article:first-letter {
+		font-size: 20px;
+		font-family: "Comic Sans MS";
+		color: red;
 	}
 
 		.article legend {
@@ -117,5 +127,6 @@ body {
 }
 
 	#copy {
-		padding-top: 10px;
+		margin-left: 70%;
+		padding-top: 20px;
 	}

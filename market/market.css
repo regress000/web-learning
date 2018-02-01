@@ -51,6 +51,26 @@
 			background: url(../img/sprite/toSprite5.jpg) no-repeat;
 		}
 
+		.buyButton {
+			width: 100px;
+			height: 40px;
+			margin-left: 80%;
+			background-color: orange;
+			color: black;
+			font-size: 1.1em;
+			font-family: "Comic Sans MS";
+		}
+
+			.buyButton:hover {
+				width: 100px;
+				height: 35px;
+				background-color: orange;
+				color: black;
+				font-size: 1.1em;
+				font-family: "Comic Sans MS";
+				border: dotted 2px black;
+			}
+
 .price {
 	margin-left: 5%;
 	border: solid 1px black;

@@ -41,7 +41,7 @@ body {
 .menu {
 	max-width: 80%;
 	min-height: 40px;
-	text-align: left;
+	text-align: right;
 	padding: 0px;
 	border-bottom: solid 2px black;
 	background-color: #f8f8f8;
@@ -127,5 +127,6 @@ body {
 }
 
 	#copy {
-		padding-top: 10px;
+		margin-left: 70%;
+		padding-top: 20px;
 	}

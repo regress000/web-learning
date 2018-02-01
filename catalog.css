@@ -3,6 +3,26 @@
 	font-size: 18px;
 }
 
+.buyButton {
+	width: 70px;
+	height: 30px;
+	margin-left: 80%;
+	background-color: orange;
+	color: black;
+	font-size: 1.1em;
+	font-family: "Comic Sans MS";
+}
+
+	.buyButton:hover {
+		width: 70px;
+		height: 30px;
+		background-color: orange;
+		color: black;
+		font-size: 1.1em;
+		font-family: "Comic Sans MS";
+		border: dotted 2px black;
+	}
+
 .goodsGroup:first-letter {
 	font-size: 20px;
 	font-family: "Comic Sans MS";
